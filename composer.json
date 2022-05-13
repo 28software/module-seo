@@ -5,7 +5,7 @@
     "type": "magento2-module",
     "require": {
         "magento/framework": "*",
-        "gigaparts/module-catalog": "1.0.*"
+        "magento/module-catalog": "103.*"
     },
     "license": [
         "proprietary"
