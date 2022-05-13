@@ -1,0 +1,21 @@
+{
+    "name": "28software/module-seo",
+    "version": "1.0.0",
+    "description": "SEO Module for Magento 2",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "gigaparts/module-catalog": "1.0.*"
+    },
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TESoftware\\Seo\\": ""
+        }
+    }
+}
